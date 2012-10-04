@@ -1,0 +1,25 @@
+{
+    "name": "livsi/sd-tools-bundle",
+    "type": "symfony-bundle",
+    "description": "Contains same development tools",
+    "keywords": ["tools"],
+    "homepage": "https://github.com/livsi/",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Livsi",
+            "email": "livsi1977@list.ru"
+        }
+    ],
+    "require": {
+        "symfony/process": "2.1.*",
+        "symfony/finder": "2.1.*"
+    },
+    "require-dev": {
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-0": { "Livsi\\SDToolsBundle": "" }
+    },
+    "target-dir": "Livsi/SDToolsBundle"
+}

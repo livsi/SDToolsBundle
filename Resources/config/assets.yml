@@ -1,0 +1,4 @@
+#assets:
+#  jQuery:
+#    origin: vendor/jquery/jquery/jquery.min.js
+#    target: js/jquery/jquery.min.js
