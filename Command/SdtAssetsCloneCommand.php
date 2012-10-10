@@ -38,9 +38,12 @@ class SdtAssetsCloneCommand extends ContainerAwareCommand
 
         foreach($site_assets['assets'] as $name=>$assets){
             if(is_file($assets['origin'])){
+//                echo "file - ".$assets['target']."\n";
                 $filesystem->copy($assets['origin'],$targetArg."/".$assets['target'], true);
             } elseif(is_dir($assets['origin'])){
                 $filesystem->mirror($assets['origin'],$targetArg."/".$assets['target']);
+            } else {
+                $output->writeln(sprintf("Assets not found - <error>%s</error>", $assets['target']));
             }
             $output->writeln(sprintf("Installed assets for the <comment>%s</comment>", $name));
         }

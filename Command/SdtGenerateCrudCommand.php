@@ -15,7 +15,8 @@ class SdtGenerateCrudCommand extends \Sensio\Bundle\GeneratorBundle\Command\Gene
 
     protected function getGenerator()
     {
-        $generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), __DIR__.'/../Resources/skeleton/crud');
+        $app_path = $this->getContainer()->get('kernel')->getRootDir();
+        $generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), $app_path.'/Resources/skeleton/crud');
         $this->setGenerator($generator);
         return parent::getGenerator();
     }
