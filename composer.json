@@ -1,5 +1,5 @@
 {
-    "name": "livsi/sd-tools-bundle",
+    "name": "livsi/sdtools-bundle",
     "type": "symfony-bundle",
     "description": "Contains same development tools",
     "keywords": ["tools"],
