@@ -19,5 +19,6 @@
     "autoload": {
         "psr-0": { "Livsi\\SDToolsBundle": "" }
     },
-    "target-dir": "Livsi/SDToolsBundle"
+    "target-dir": "Livsi/SDToolsBundle",
+    "bin": ["bin/removeAcme.sh"]
 }
