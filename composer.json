@@ -12,8 +12,6 @@
         }
     ],
     "require": {
-        "symfony/process": ">=2.1.*",
-        "symfony/finder": ">=2.1.*"
     },
     "require-dev": {
         "symfony/yaml": "*"
