@@ -4,7 +4,7 @@
     "description": "Contains same development tools",
     "keywords": ["tools"],
     "homepage": "https://github.com/livsi/",
-    "license": "Apache",
+    "license": "MIT",
     "authors": [
         {
             "name": "Livsi",
