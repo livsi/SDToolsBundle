@@ -12,3 +12,5 @@ sdt:prepare - prepare tools for work on project (clone skeleton for generate cru
 sdt:assets:clone - clone site level assets (for example jquery) to web path
 
 sdt:generate:crud - generate crud, based on site template
+
+For remove Acme/DemoBundle - run from console: ./bin/removeAcme.sh
