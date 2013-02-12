@@ -3,6 +3,20 @@ SDToolsBundle
 
 Project level tools for speed development
 
+For install sh tools - add to you composer.json (if not exist):
+
+.. code-block:: json
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+For install dev version:
+
+.. code-block:: json
+
+    "minimum-stability": "dev",
+
 
 Commands
 ++++++++
